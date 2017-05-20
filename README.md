@@ -27,3 +27,7 @@ This uses HTML, CSS, Sass, Javascript, jQuery, and Twitter Bootstrap.
 * Implement testing to validate data input in todo form
 * Display error if input is invalid
 * Click circle icon on list to complete item
+
+### Calculator
+* With more time, I would start and complete a calculator Javascript object!
+* *Note:* I created a calculator API using Express and Node years ago, although it utilizes route params rather than objects. It can be viewed [here](https://github.com/apennell/Calculator-HW).
