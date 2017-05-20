@@ -4,9 +4,11 @@ By [Annie Pennell](https://www.linkedin.com/in/anniepennell/)
 
 [anniepennell.com](http://anniepennell.com/)
 
+This project includes a static todo list, including a form for adding a new todo item and a table with rows for each item. Each todo item includes a name (string), a topic (array of strings), due date (date), and completed (boolean).
+
 ## Technologies 
 
-This uses HTML, CSS, Sass, Javascript, jQuery, and Twitter Bootstrap.
+This uses HTML, CSS, Sass, Javascript, and Twitter Bootstrap.
 
 ## Dependencies
 * Sass ([get it here](http://sass-lang.com/install))
