@@ -44,7 +44,8 @@ form {
   .todo-list .list-item .topic {
     text-transform: uppercase;
     font-weight: 500;
-    padding: 5px; }
+    padding: 5px;
+    display: inline-block; }
     .todo-list .list-item .topic.work {
       background-color: #edcd4c; }
     .todo-list .list-item .topic.school {
