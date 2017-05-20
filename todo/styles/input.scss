@@ -5,6 +5,10 @@ $ivory: #fbfad6;
 $purple: #634A68;
 $light1: #fbfae6;
 $light2: #e4ebe9;
+$yellow1: #edcd4c;
+$yellow2: #ffe787;
+$yellow3: #ffd600;
+$yellow4: #d6ab00;
 
 body {
 	font-family: $primary-font;
@@ -37,16 +41,20 @@ form{
 .todo-list{
 
 	.header-row{
-		padding: 20px 5px;
+		padding-top: 20px;
+		padding-bottom: 20px;
 		background-color: $purple;
 		color: #fff;
 		text-transform: uppercase;
 		font-weight: 700;
+		margin: 0;
 	}
 
 	.list-item{
 		background-color: $light1;
-		padding: 15px 5px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		margin: 0;
 		
 		&.item-alt{
 			background-color: $light2;
@@ -55,9 +63,31 @@ form{
 		i.fa-circle-o{
 			color: $purple;
 		}
-		
+
 		i.fa-check-circle{
 			color: $green;
+		}
+
+		.topic{
+			text-transform: uppercase;
+			font-weight: 500;
+			padding: 5px;
+
+			&.work{
+				background-color: $yellow1;
+			}
+
+			&.school{
+				background-color: $yellow2;
+			}
+
+			&.home{
+				background-color: $yellow3;
+			}
+
+			&.fun{
+				background-color: $yellow4;
+			}
 		}
 	}
 
