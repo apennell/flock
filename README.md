@@ -16,6 +16,7 @@ This uses HTML, CSS, Sass, Javascript, jQuery, and Twitter Bootstrap.
 1. Clone locally using `git clone https://github.com/apennell/flock.git`
 2. `cd` into `flock` directory
 3. To view the todo list, `cd` into `todo` and open `index.html` in your browser
+4. To view the answer to problem 2, view `Problem2.md`
 
 ## Next Steps
 
