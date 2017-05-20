@@ -35,9 +35,11 @@ form {
   margin: 0; }
   .todo-list .list-item.item-alt {
     background-color: #e4ebe9; }
-  .todo-list .list-item i.fa-circle-o {
+  .todo-list .list-item i.fa:hover {
+    cursor: pointer; }
+  .todo-list .list-item i.fa.fa-circle-o {
     color: #634A68; }
-  .todo-list .list-item i.fa-check-circle {
+  .todo-list .list-item i.fa.fa-check-circle {
     color: #34dbad; }
   .todo-list .list-item .topic {
     text-transform: uppercase;

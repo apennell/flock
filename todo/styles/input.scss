@@ -60,12 +60,18 @@ form{
 			background-color: $light2;
 		}
 
-		i.fa-circle-o{
-			color: $purple;
-		}
+		i.fa {
+			&:hover{
+				cursor: pointer;
+			}
 
-		i.fa-check-circle{
-			color: $green;
+			&.fa-circle-o{
+				color: $purple;
+			}
+
+			&.fa-check-circle{
+				color: $green;
+			}
 		}
 
 		.topic{
