@@ -1,6 +1,10 @@
 $primary-font: "Raleway", sans-serif;
-$primary-color: #1f262d;
+$primary-color: #292923;
 $green: #34dbad;
+$ivory: #fbfad6;
+$purple: #634A68;
+$light1: #fbfae6;
+$light2: #e4ebe9;
 
 body {
 	font-family: $primary-font;
@@ -10,4 +14,51 @@ body {
 h1{
 	color: $green;
 	text-align: center;
+}
+
+button.btn{
+	background-color: $purple;
+	color: #fff;
+	border: none;
+}
+
+form{
+	background-color: $ivory;
+	border: 4px solid $green;
+	border-radius: 4px;
+	padding: 20px;
+	margin: 40px 0;
+
+	label{
+		padding-right: 20px;
+	}
+}
+
+.todo-list{
+
+	.header-row{
+		padding: 20px 5px;
+		background-color: $purple;
+		color: #fff;
+		text-transform: uppercase;
+		font-weight: 700;
+	}
+
+	.list-item{
+		background-color: $light1;
+		padding: 15px 5px;
+		
+		&.item-alt{
+			background-color: $light2;
+		}
+
+		i.fa-circle-o{
+			color: $purple;
+		}
+		
+		i.fa-check-circle{
+			color: $green;
+		}
+	}
+
 }
